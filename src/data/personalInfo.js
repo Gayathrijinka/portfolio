@@ -18,6 +18,6 @@ export const personalInfo = {
     linkedin: "https://linkedin.com/in/gayathri-jinka", // Replace with your LinkedIn profile URL
     email: "gayathrijinka2005@gmail.com",
   },
-  resumePath: "/resume/Gayathri_J_Resume.pdf",
+  resumePath: `${import.meta.env.BASE_URL}resume/Gayathri_J_Resume.pdf`,
   targetRoles: ["AI/ML Engineering Intern", "Full Stack Development Intern"],
 };

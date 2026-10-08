@@ -5,7 +5,7 @@ export const certifications = [
     issuer: "SmartBridge",
     badge: "AI / ML Credential",
     date: null, // As requested, no invented dates
-    fileUrl: "/certificates/SmartBridge_ML_Certificate.pdf",
+    fileUrl: `${import.meta.env.BASE_URL}certificates/SmartBridge_ML_Certificate.pdf`,
     fileType: "pdf",
     description:
       "Comprehensive certification covering foundational to advanced supervised and unsupervised machine learning algorithms, model evaluation, and practical implementations.",
@@ -17,7 +17,7 @@ export const certifications = [
     issuer: "Great Learning",
     badge: "Core CS Foundational",
     date: null,
-    fileUrl: "/certificates/DSA_Java_GreatLearning.jpg",
+    fileUrl: `${import.meta.env.BASE_URL}certificates/DSA_Java_GreatLearning.jpg`,
     fileType: "image",
     description:
       "Core computer science problem solving focused on fundamental data structures (Arrays, Linked Lists, Stacks, Queues, Trees) and efficient algorithmic design in Java.",
@@ -29,7 +29,7 @@ export const certifications = [
     issuer: "Specialized Course Credential",
     badge: "GenAI & LLMs",
     date: null,
-    fileUrl: "/certificates/GenAI_ChatGPT_Certificate.pdf",
+    fileUrl: `${import.meta.env.BASE_URL}certificates/GenAI_ChatGPT_Certificate.pdf`,
     fileType: "pdf",
     description:
       "Study of generative models, prompt engineering paradigms, Transformer-based architectures, and practical application development using large language models.",
@@ -41,7 +41,7 @@ export const certifications = [
     issuer: "Simplilearn SkillUp",
     badge: "Cloud AI & Data",
     date: null,
-    fileUrl: "/certificates/Databricks_Generative_AI.pdf",
+    fileUrl: `${import.meta.env.BASE_URL}certificates/Databricks_Generative_AI.pdf`,
     fileType: "pdf",
     description:
       "Hands-on learning on Databricks Lakehouse architecture, preparing enterprise data for generative AI solutions, and model deployment strategies.",
