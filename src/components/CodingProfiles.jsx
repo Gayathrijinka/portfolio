@@ -1,5 +1,6 @@
 import React from 'react'
-import { Linkedin, Github, Code, ExternalLink, ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
+import { Linkedin, Github, LeetCode } from './Icons'
 
 export default function CodingProfiles() {
   const profiles = [
@@ -28,7 +29,7 @@ export default function CodingProfiles() {
       name: 'LeetCode',
       handle: 'Gayathri_jinka',
       url: 'https://leetcode.com/u/Gayathri_jinka/',
-      icon: <Code size={26} className="profile-brand-icon text-leetcode" />,
+      icon: <LeetCode size={26} className="profile-brand-icon text-leetcode" />,
       color: '#f59e0b',
       role: 'Algorithmic Problem Solving',
       description: 'View my active practice on Data Structures and Algorithms in Java and Python, focusing on arrays, dynamic programming, and trees.'

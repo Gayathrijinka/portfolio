@@ -1,19 +1,14 @@
 {
-<<<<<<< HEAD
   "name": "gayathri-portfolio",
   "private": true,
   "version": "1.0.0",
-=======
-  "name": "portfolio",
-  "private": true,
-  "version": "0.0.0",
->>>>>>> b72595f837fac1e93958dcddb823daed8d5c55ae
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-<<<<<<< HEAD
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -22,24 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.2.0",
     "vite": "^6.0.1"
-=======
-    "lint": "oxlint",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "lucide-react": "^1.53.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "tailwindcss": "^4.3.3"
-  },
-  "devDependencies": {
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
-    "oxlint": "^1.81.0",
-    "vite": "^8.3.0"
->>>>>>> b72595f837fac1e93958dcddb823daed8d5c55ae
   }
 }
